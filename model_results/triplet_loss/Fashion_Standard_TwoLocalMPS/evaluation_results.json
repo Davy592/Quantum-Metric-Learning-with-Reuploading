@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-02-10 10:09:48",
+  "test_samples": 10000,
+  "checkpoints": [
+    {
+      "epoch": 100,
+      "agglomerative": {
+        "silhouette": 0.4143451981273044,
+        "purity": 0.5166
+      },
+      "kmeans": {
+        "silhouette": 0.4365454945537311,
+        "purity": 0.6627
+      }
+    },
+    {
+      "epoch": 200,
+      "agglomerative": {
+        "silhouette": 0.43653365544046047,
+        "purity": 0.618
+      },
+      "kmeans": {
+        "silhouette": 0.4456881776157496,
+        "purity": 0.6746
+      }
+    }
+  ]
+}
