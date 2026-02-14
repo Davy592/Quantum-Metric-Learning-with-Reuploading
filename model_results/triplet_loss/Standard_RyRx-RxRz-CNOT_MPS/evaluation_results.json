@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-02-13 00:51:28",
+  "test_samples": 10000,
+  "checkpoints": [
+    {
+      "epoch": 100,
+      "agglomerative": {
+        "silhouette": 0.4712469551405895,
+        "purity": 0.8955
+      },
+      "kmeans": {
+        "silhouette": 0.5014609820593167,
+        "purity": 0.9085
+      },
+      "training_time_minutes": 310.43911237716674,
+      "train_loss": 0.0
+    },
+    {
+      "epoch": 200,
+      "agglomerative": {
+        "silhouette": 0.45986755722568734,
+        "purity": 0.9023
+      },
+      "kmeans": {
+        "silhouette": 0.4922441016351405,
+        "purity": 0.9185
+      },
+      "training_time_minutes": 617.8771120230357,
+      "train_loss": 0.0
+    }
+  ]
+}
